@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300;500;700&family=Labrada&family=Lato:ital,wght@1,300;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,300;0,500;0,600;1,400&family=Noto+Serif:ital,wght@1,400;1,700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,600;1,200&family=Quicksand&family=Raleway:ital,wght@0,200;0,300;1,100;1,400;1,500&family=Roboto:wght@100;300;500&family=Source+Sans+Pro:ital,wght@1,200;1,300;1,400;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/f7367cb8d6d20439063c07107ecf40c4.jpeg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    background-size: cover;
+    padding: 5px;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/f7367cb8d6d20439063c07107ecf40c4.jpeg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    background-size: cover;
+    padding: 5px;
+}
+
+/** cabeçalho**/
+
+
+
+/** position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/f7367cb8d6d20439063c07107ecf40c4.jpeg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment:fixed;
+    align-items: center;
+    background-size: cover;
+    padding: 5px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <div class="segundo_container-iflho">
+                        <h1>2</h1>
+                    </div>
+                    <div class="terceiro_container-iflho">
+                        <h1>3</h1>
+                    </div>
+                    <div class="quarto_container-iflho">
+                        <h1>4</h1>
+                    </div>
+                    <div class="quinto_container-iflho">
+                        <h1>5</h1>
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    **/
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+
+
+
+}
+
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    letter-spacing: 3px;
+
+}
+
+.menu li {
+    width: 17%;
+}
+
+.header-menu {
+    width: 80%;
+    transform: translate(10px);
+    align-items: center;
+
+
+
+}
+
+
+.header a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 02px 01px 01px black;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu a:hover {
+    background-color: rgba(3, 3, 3, 0.384);
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(5, 5, 5);
+    box-shadow: 4px 3px 2px 0px rgb(7, 7, 7);
+
+}
+
+
+
+.img-logo {
+    width: 70px;
+    border-radius: 30%;
+}
+
+/** filho do cabeçalho**/
+
+
+.filho-header {
+    width: 100%;
+    height: 10%;
+    transform: translate(30px);
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.cards button {
+    width: 90%;
+    height: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(5, 5, 5, 0.973);
+    cursor: pointer;
+
+
+
+
+
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    height: 1%;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 2px black;
+    justify-content: center;
+
+}
+
+
+.card button:hover {
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    height: 400px;
+    border-radius: 0px 30px;
+    transition: 0.5s;
+}
+
+.card {
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+
+
+
+
+}
+
+.card h1 {
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+}
+
+
+/** barra de anuncios**/
+
+
+
+.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.destaque img {
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px black;
+    background-attachment: fixed;
+
+}
+
+
+
+/** cabeçalho dos items **/
+
+
+
+.cardapio {
+    height: 100em;
+    margin-top: 10%;
+    display: list-item;
+
+}
+
+
+.top-items {
+    width: 20%;
+    height: 2%;
+    margin-right: 20%;
+    margin-left: 70%;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+
+.top-items option {
+    border: none;
+    background: rgba(0, 0, 0, 0.466);
+}
+
+.top-items h3 {
+    margin-right: 1%;
+
+}
+
+/** cabeçalho dos items **/
+
+.items-loja {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+
+
+}
+
+.menu-lateral {
+    width: 15%;
+    height: 34%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+}
+
+fieldset {
+    background: rgb(12, 12, 14);
+    border: none;
+    width: 87%;
+    color: aliceblue;
+}
+
+
+
+/** items de roupas**/
+
+
+
+.container_items {
+    
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    padding: 10px;
+
+}
+
+.container-iflho { 
+    display: flex;
+
+}
+.container-iflho img{
+    width: 250px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctd1 {
+    width: 300px;
+    margin: 20px;
+    background-color: #ffffffd8;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+
+}
+.ctd1 img:hover{
+    cursor:pointer;
+}
+
+.ctd1 button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ctd1 button:hover {
+    background-color: #00a0e9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
