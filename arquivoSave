@@ -1,0 +1,35 @@
+<div class="areaDeSaida">
+        <div class="ldEsquerdo">
+            <h1>Informaçao</h1>
+            <nav class="info">
+                <a href="#">Entre em Contato</a><br><br>
+                <a href="#">Quem Somos</a><br><br>
+                <a href="#">Cadastro Da Impresa</a><br><br>
+                <a href="#">Relatar Bugs</a>
+            </nav>
+
+        </div>
+        <div class="ldMeio">
+            <h1>Siga-nos</h1><br>
+            <nav class="rdSocial">
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #373a3e;"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp" style="color: #373a3e;"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin" style="color: #373a3e;"></i></a>
+                <a href="#"><i class="fa-brands fa-github" style="color: #373a3e;"></i></a>
+            </nav>
+        </div>
+
+        <div class="ldDireito">
+            <h1>Contato</h1><br>
+            <a href=""> <i class="fa-regular fa-envelope"></i>deyvidwilliam762@gmail.com</a><br><br>
+            <a href=""><i class="fa-brands fa-whatsapp">(47) 9733-7889</i></a><br><br>
+            <a href=""><i class="fa-solid fa-location-dot"></i>Alameda Rio Branco, 120 - Jardim Blumenau, Blumenau -
+                SC </a>
+
+        </div>
+
+    </div>
+
+    --------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------------
