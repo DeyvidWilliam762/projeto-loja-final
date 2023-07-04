@@ -34,7 +34,7 @@ forms.addEventListener("submit", (event) => {
 
 
   }else{
-    msgCreate.innerHTML = '<h1 style="color: red;" > Campo incorreto</h1>'
+    msgCreate.innerHTML = '<h1 style="color: red;"> Campo incorreto</h1>'
   }
 
 

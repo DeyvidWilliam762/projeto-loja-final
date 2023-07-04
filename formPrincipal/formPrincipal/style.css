@@ -10,7 +10,7 @@ body {
 .main-login {
     width: 100vw;
     height: 100vh;
-    background-color: #53425e;
+    background-color: #060e01;
     display: flex;
     background-image: url(img/33e64deff8054ae2959df949203dd5c7.jpeg);
     justify-content: center;
@@ -165,6 +165,7 @@ body {
     background-color: #08f108;
     color: #ffffff;
     width: 100%;
+    transition: 1s;
 
 
 }
