@@ -1,0 +1,29 @@
+@media screen and (max-width: 500px){
+    body{
+        flex-direction: column;
+        
+        
+    }
+    .spanTrueCreateLogin{     
+        width: 100%;        
+    }
+    .left-login{
+        width: 100%;
+        
+    }
+    .main-login{
+        width: 100%;
+       
+    }
+
+    .formlogin{
+        height: 30%;
+    }
+    .card-login{
+        width: 100%;
+    }
+    .card-login2{
+        display: flex;
+        width: 100%;
+    }
+}

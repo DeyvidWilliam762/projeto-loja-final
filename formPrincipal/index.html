@@ -7,46 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midiaQuery.css">
     <title>Gerador De Senha</title>
 </head>
 
 <body>
-    <form class="main-login" id="formCreateLogin">
-
-        <div class="left-login">
-            <div class="card-login2">
-                <H1>
-                    Criar Conta <br>
-                </H1>
-                <div class="msgVld"></div>
-                <div class="textfield">
-                    <label for="txtNome">* Nome De Usuario</label>
-                    <input type="text" name="txtNome" id="txtNome" class="requerido" oninput="NameValidate()" maxlength="22" placeholder=" Nome de usuario">
-                    <div class="SpanRequerido">minimo 3 caractere</div>
-                </div>
-                <div class="textfield">
-                    <label for="txtEmail">* E-mail</label>
-                    <input type="email" name="txtEmail" id="txtEmail" class="requerido" oninput="EmailValidate()" placeholder=" E-mail">
-                    <div class="SpanRequerido"><p>E-mail invalido</p></div>
-                </div>
-                <div class="textfield">
-                    <label for="txtSenha">* Senha</label>
-                    <input type="password" name="txtSenha" id="txtSenha" maxlength="20" oninput="passwordPrimary()" class="requerido" placeholder=" Senha">
-                    <span class="SpanRequerido"><p>senha fraca</p></span>
-                </div>
-                <div class="textfield">
-                    <label for="txtRpSenha">* Repetir Senha</label>
-                    <input type="password" name="txtRpSenha" id="txtRpSenha" maxlength="20" oninput="comparePassword()" class="requerido" placeholder=" Repetir Senha">
-                    <div class="SpanRequerido"><p>senha deve ser igual</p></div>
-                </div>
-
-                <div class="btn-btn">
-                    <button class="btn" type="submit" id="txtValidar" onclick="">Criar Conta</button>
-                    
-                </div>
-            </div>
-        </div>
-</form>
 
 <form class="main-login" id="formLogin">
         <div class="right-login">
@@ -69,6 +34,47 @@
 
     
 
+    </div>
+</form>
+
+
+
+<form class="main-login" id="formCreateLogin">
+   <div class="spanTrueCreateLogin" id="elmSpan"></div>
+    
+
+    <div class="left-login">
+        <div class="card-login2">
+            <H1>
+                Criar Conta <br>
+            </H1>
+            <div class="msgVld"></div>
+            <div class="textfield">
+                <label for="txtNome">* Nome De Usuario</label>
+                <input type="text" name="txtNome" id="txtNome" class="requerido" oninput="NameValidate()" maxlength="22" placeholder=" Nome de usuario">
+                <div class="SpanRequerido">minimo 3 caractere</div>
+            </div>
+            <div class="textfield">
+                <label for="txtEmail">* E-mail</label>
+                <input type="email" name="txtEmail" id="txtEmail" class="requerido" oninput="EmailValidate()" placeholder=" E-mail">
+                <div class="SpanRequerido"><p>E-mail invalido</p></div>
+            </div>
+            <div class="textfield">
+                <label for="txtSenha">* Senha</label>
+                <input type="password" name="txtSenha" id="txtSenha" maxlength="20" oninput="passwordPrimary()" class="requerido" placeholder=" Senha">
+                <span class="SpanRequerido"><p>senha fraca</p></span>
+            </div>
+            <div class="textfield">
+                <label for="txtRpSenha">* Repetir Senha</label>
+                <input type="password" name="txtRpSenha" id="txtRpSenha" maxlength="20" oninput="comparePassword()" class="requerido" placeholder=" Repetir Senha">
+                <div class="SpanRequerido"><p>senha deve ser igual</p></div>
+            </div>
+
+            <div class="btn-btn">
+                <button class="btn" type="submit" id="txtValidar" onclick="">Criar Conta</button>
+                
+            </div>
+        </div>
     </div>
 </form>
 
